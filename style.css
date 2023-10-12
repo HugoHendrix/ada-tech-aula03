@@ -1,0 +1,29 @@
+:root {
+    --main-font: 'Fira Code', monospace;
+    --border-green: #68b517;
+    --main-green: #a6f750;
+   
+}
+
+body {
+    font-family: var(--main-font);
+  }
+  
+  header {
+    background-color: var(--degrade);
+  }
+
+  h1, h2, p {
+    font-family: var(--main-font);
+  }
+
+  
+
+
+  .main-title {
+    border-bottom: 2px solid var(--border-green);
+    color: var(--main-green);
+
+
+  }
+  
