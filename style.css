@@ -2,28 +2,37 @@
     --main-font: 'Fira Code', monospace;
     --border-green: #68b517;
     --main-green: #a6f750;
-   
+    --main-bg: #242835;
+    --cor-fundo: #f0f0f0;
+    --cor-texto: #333;
+    --cor-borda: #ccc;
+    --espacamento: 10px;
+  
+
 }
 
-body {
+.custom-body {
     font-family: var(--main-font);
-  }
-  
-  header {
-    background-color: var(--degrade);
-  }
+    /* background-color: var(--main-bg); */
 
-  h1, h2, p {
+}
+
+header {
+    border: 2px solid var(--border-green);
+    border-radius: 12px;
+}
+
+h1,
+h2,
+p {
     font-family: var(--main-font);
-  }
-
-  
+}
 
 
-  .main-title {
+.main-title {
     border-bottom: 2px solid var(--border-green);
     color: var(--main-green);
 
 
-  }
-  
+}
+
