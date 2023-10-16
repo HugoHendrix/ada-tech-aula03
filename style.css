@@ -1,38 +1,101 @@
 :root {
-    --main-font: 'Fira Code', monospace;
-    --border-green: #68b517;
-    --main-green: #a6f750;
-    --main-bg: #242835;
-    --cor-fundo: #f0f0f0;
-    --cor-texto: #333;
-    --cor-borda: #ccc;
-    --espacamento: 10px;
-  
-
+    --font-family: 'Fira Code', monospace;
+    --color-background: #151822;
+    --color-primary: #68b517;
+    --color-secondary: #a6f750;
+    --color-text: #242835;
+    --color-light: #f2f2f2;
+    --color-dark: #101420;
+    --color-accent: #36491f;
+    --background-gradient: linear-gradient(93.08deg, rgba(166, 247, 80, 0.14) 19.31%, rgba(61, 44, 255, 0) 75.52%), rgb(24, 28, 35);
 }
 
 .custom-body {
-    font-family: var(--main-font);
-    /* background-color: var(--main-bg); */
-
+    font-family: var(--font-family);
+    background: var(--background-gradient);
+    color: var(--color-text);
 }
 
 header {
     border: 2px solid var(--border-green);
     border-radius: 12px;
+    border: 1px solid var(--color-primary);
+    padding: 1rem;
+    background-color: var(--color-text);
 }
 
 h1,
 h2,
 p {
-    font-family: var(--main-font);
-}
-
-
-.main-title {
-    border-bottom: 2px solid var(--border-green);
-    color: var(--main-green);
-
+    font-family: var(--fonte);
+    color: var(--color-secondary);
 
 }
 
+
+
+.custom-container {
+    width: 50%;
+    margin: 2rem auto;
+    border: 1px solid var(--color-accent);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+
+/* Estilos para o formulário */
+.form-styles {
+    background: var(--color-light);
+    color: var(--color-dark);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para os campos de input */
+.form-styles input[type="text"],
+.form-styles input[type="number"],
+.form-styles input[type="date"],
+.form-styles input[type="time"],
+.form-styles select {
+    background-color: var(--color-light);
+    color: var(--color-text);
+    border: 2px solid var(--color-accent);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para os botões */
+.form-styles button {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* Estilos para o fundo do formulário */
+.form-styles fieldset {
+    border: none;
+}
+
+/* Estilos para a legenda do formulário */
+.form-styles legend {
+    color: var(--color-dark);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer {
+    border-top: 2px solid var(--color-secondary);
+    border-radius: 0.5rem 1rem;
+
+}
+
+footer a {
+    color: var(--color-secondary);
+
+}
