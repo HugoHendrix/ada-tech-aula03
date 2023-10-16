@@ -33,5 +33,5 @@ Requisitos:
 - Bootstrap
 - Javascript
 
-
+[Anotações da aula 03 - Link](https://hugohendrix.notion.site/Anota-es-AULA-3-Front-End-Est-tico-2bdcd1cfcb7a428ab2f62d4a73fb4d0c?pvs=4)
 
